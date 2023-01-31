@@ -166,6 +166,10 @@ resource slot 'Microsoft.Web/sites/slots@2022-03-01' = {
           name: 'WEBSITE_NODE_DEFAULT_VERSION'
           value: '~14'
         }
+        {
+          name: 'TEST_SETTING'
+          value: '1'
+        }
       ]
     }
   }
